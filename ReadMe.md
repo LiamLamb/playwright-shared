@@ -1,12 +1,14 @@
 ## Overview
 Here is a simple repository to highlight the issues using playwright in shared packages using npm workspaces:
 
+## Where to run this
+In vscode, with the playwright extension installed, to version v1.1.7
+
 Here is the breakdown of the workspace:
 * `packages/app-1` A simple typescript library, which has a single test using playwright
 
 * `packages/shared` A simple typescript library, which exports a simple function, used by `packages/app-1`
 
-## Reproducing the problem
 There are two branches in the repository, each of which will have its own `ReadMe` explaining what to expect:
 * `main`, which has a vanilla playwright configuration; it is only used in a single package of the workspace (`app-1`).
 * `shared-fixture`, which demonstrates the issue exporting fixtures from a shared package in a workspace.
