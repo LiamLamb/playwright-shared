@@ -35,6 +35,9 @@ There are two branches in the repository, each of which will have its own `ReadM
 ```
 
 ## Extra information
+* Playwright extension version used:
+`v1.1.7`
+
 * Doctor output:
 ```
 Liam.Lamb in playwright-shared on  master is 📦 v1.0.0 via  
