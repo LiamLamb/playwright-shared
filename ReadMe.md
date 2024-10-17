@@ -8,7 +8,7 @@ Here is the breakdown of the workspace:
 
 ## Reproducing the problem
 There are two branches in the repository, each of which will have its own `ReadMe` explaining what to expect:
-* `master`, which has a vanilla playwright configuration; it is only used in a single package of the workspace (`app-1`).
+* `main`, which has a vanilla playwright configuration; it is only used in a single package of the workspace (`app-1`).
 * `shared-fixture`, which demonstrates the issue exporting fixtures from a shared package in a workspace.
 
 🚨 Note, when switching branches, make sure to clean the repo and re-install dependencies with the following commands:
