@@ -1,0 +1,20 @@
+{
+  "name": "playwright-shared",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rimraf --glob node_modules packages/**/dist packages/**/output",
+    "build": "tsc --build",
+    "pretest": "npm run build",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.3"
+  }
+}
